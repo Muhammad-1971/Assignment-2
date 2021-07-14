@@ -1,7 +1,6 @@
 /* ------------------------- google font
 ------------------------------------------------------ */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 
 
@@ -20,16 +19,16 @@
 /* ------------------------common style or utilites
 ------------------------------------------------------ */
 body{
-  width: 1440px;
-  height: 3750px;
-  background-color: gray;
   display: flex;
   flex-direction: column;
   align-items: center;
+ background-color: whitesmoke;
 }
 
-
-
+a{
+  text-decoration: none;
+  color: white;
+}
 
 
 /* --------------------------header (section=head)
@@ -72,7 +71,18 @@ width: 168px;
 height: 44px;
 background-color: #E02C6D;
 color: #ffffff;
+padding: 10px 24px;
+border: none;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 16px;
+border-radius: 10px;
+box-shadow: 5px 6px 8px #0f0a57;
 
+}
+.click button:hover{
+  transform: scale(1.05);
+  transition: all .4s linear;
 }
 .right{
   margin-top:153px ;
@@ -94,6 +104,7 @@ color: #ffffff;
 
 .top-players-list{
 width: 1440px;
+
 
 background-color: #ffffff;
 /* border: 1px solid; */
@@ -256,11 +267,61 @@ margin-left: 100px;
 font-weight: 400;
 font-size: 16px;
 }
+/* -----------------
+section-2-ranking-top players-end-
+-------------------------  */
 
+/* section- optional */
 
+.optional-topic{
+  background-color: white;
+  width: 1440px;
+  height: 600px;
+  /* background-color: yellowgreen; */
 
+}
+.optional{
+  display: flex;
+  justify-content: center;
+}
+.half-optional-text{
+  margin-top: 224px;
+  margin-left: 182px;
+  width: 466px;
+  height: 309px;
+  /* border: 1px solid; */
+}
+.half-optional-text h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
 
+}
+.big-text{
+  height: 120px;
+  width: 469px;
+}
+.small-text{
+  width: 404px;
+  height: 113px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
 
+.half-optional-img{
+  margin-top: 165px;
+  margin-right: 156px;
+  width: 567px;
+  height: 427px;
+  /* border: 1px solid; */
+  margin-left: 69px;
+}
+.half-optional-img img{
+  width: 567px;
+  height: 427px;
+}
 
 
 

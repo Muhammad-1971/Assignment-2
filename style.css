@@ -1,0 +1,89 @@
+/* ------------------------- google font
+------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+
+
+
+
+
+
+/* ------------------------fontawosam
+----------------------------------------------------- */
+
+
+
+
+
+/* ------------------------common style or utilites
+------------------------------------------------------ */
+body{
+  width: 1440px;
+  height: 3750px;
+  background-color: gray;
+}
+
+
+
+
+
+/* --------------------------header section
+--------------------------------------------------------- */
+.head{
+  width: 1440px;
+  height: 677px;
+  background-color: #2D25A0;
+}
+.body{
+  display: flex;
+}
+.half{
+  width: 50%;
+  height: 677px;
+  /* border: 1px solid white; */
+}
+.left{
+  margin-top: 207px;
+  margin-left: 156px;
+  margin-bottom: 240px;
+  height: 238px;
+  width: 485px;
+  /* border: 1px solid white; */
+ 
+}
+.left p{
+  position: relative;
+  bottom: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  line-height: 83px;
+  color: #FFFFFF;
+ 
+}
+
+.click button{
+width: 168px;
+height: 44px;
+background-color: #E02C6D;
+color: #ffffff;
+
+}
+.right{
+  margin-top:153px ;
+  margin-right:140.99px ;
+  margin-bottom:86px ;
+  height: 438px;
+  width: 556.01px;
+  /* border: 1px solid white; */
+}
+.right img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* --------------------------1st section
+-------------------------------------------------------- */

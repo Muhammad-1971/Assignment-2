@@ -38,6 +38,12 @@ button > a{
   width: 1440px;
   height: 677px;
   background-color: #2D25A0;
+  position: relative;
+}
+.head:hover img{
+  transform: rotate(15deg) skew(-10deg) scale(1.1);
+  transition: all .5s ease-in-out;
+  
 }
 .headbody{
   display: flex;
@@ -97,6 +103,12 @@ box-shadow: 5px 6px 8px #0f0a57;
   width: 100%;
   height: 100%;
 }
+.football img{
+  position: absolute;
+  bottom: 51%;
+  right: 40%;
+}
+
 
 /* ---------------------------main----------------------------- */
 
@@ -330,6 +342,10 @@ section-2-ranking-top players-end-
   padding-top: 30px;
   /* border: 1px solid ; */
 }
+.logo:hover{
+  transition: all 0.4s linear;
+  transform: scale(1.1);
+}
 #clubs-heading{
   height: 20px;
 }
@@ -442,4 +458,19 @@ line-height: 30px;
   font-family: 'Poppins', sans-serif;
 }
 
+
+
+/* --------------meida quary-------------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
+
+  .header{
+    width: 100%;
+  }
+  .headbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+}
 

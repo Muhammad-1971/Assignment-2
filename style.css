@@ -456,6 +456,8 @@ line-height: 30px;
 
 
 /* --------------meida quary-------------- */
+
+/* ----------------mobile------------------------------ */
 @media only screen and  (max-device-width : 480px)  {
    .body{
  
@@ -579,23 +581,28 @@ line-height: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.logo{
- 
+.up{
+  position: relative;
+  left: 60px;
 }
 
 
 .up img {
-    width: 60%;
+  
+    width: 344px;
    height: 75px;
 }
 
 }
 /* ---------------DESKTOP------------------ */
-  @media only screen and (min-width: 992px) {
-    
-          body{
-            padding-left: 200px;
-          }
-    
+  @media only screen and (min-width: 1025px) {
+
+         
+          
+        
+        .left{
+          width: 100%;
+        }
+         
   } 
 

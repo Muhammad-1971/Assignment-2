@@ -340,6 +340,7 @@ section-2-ranking-top players-end-
   height: 500px;
   background-color: white;
   padding-top: 30px;
+  
   /* border: 1px solid ; */
 }
 .logo:hover{
@@ -461,16 +462,114 @@ line-height: 30px;
 
 
 /* --------------meida quary-------------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
-
+@media only screen and  (max-device-width : 480px)  {
+   .body{
+     
+   }
   .header{
     width: 100%;
+  }
+  .head{
+    width: 100%;
+     height: 50%;
   }
   .headbody {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.half{
+  width: 100%;
+}
+.left{
+  width: 278px;
+  height: 138px;
+}
+.left p{
+  font-size: 36px;
+}
+.right{
+  margin-bottom: 86px;
+  height: 344px;
+  width: 329px;
+}
+.football img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 60%;
+  right: 75%;
+}
+.right img{
+  width: 329px;
+  height: 259.17px;
+  margin-left: 50px;
+}
+.top-players-list{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+.top-players {
+  margin-top: 70px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+.player-list {
+  display: flex;
+  grid-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.ranking {
+  margin-bottom: 25px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 5px 6px 8px rgb(238 238 238), -5px -8px 12px whitesmoke;
+  flex-direction: column;
+  align-items: center;
+}
+.part{
+  height: 100%;
+}
+.two {
+  margin-left: 200px;
+}
+.optional {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.half-optional-text{
+  width: 329px;
+  height: 299px;
+  margin: 0;
+}
+
+.half-optional-text h1{
+  width: 100%;
+  font-size: 30px;
+}
+.big-text{
+  width: 100%;
   
+}
+.small-text{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.half-optional-img{
+  margin: 165px 0 0 0;
+  width: 329px;
+ 
+}
+.half-optional-img img {
+  width: 328px;
+  height: 248px;
+}
+
 }
 

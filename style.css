@@ -464,7 +464,7 @@ line-height: 30px;
 /* --------------meida quary-------------- */
 @media only screen and  (max-device-width : 480px)  {
    .body{
-     
+ 
    }
   .header{
     width: 100%;
@@ -556,10 +556,14 @@ line-height: 30px;
 .big-text{
   width: 100%;
   
+  
 }
 .small-text{
-  width: 100%;
+
   padding-bottom: 20px;
+}
+#clubs-heading h2{
+  font-size: 25px;
 }
 .half-optional-img{
   margin: 165px 0 0 0;
@@ -570,6 +574,24 @@ line-height: 30px;
   width: 328px;
   height: 248px;
 }
+.clubs-logo{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20%;
+}
+.clubs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logo{
+ 
+}
 
+
+.up img {
+    width: 60%;
+   height: 75px;
 }
 

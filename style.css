@@ -57,6 +57,7 @@ button > a{
   position: relative;
   bottom: 60px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   font-size: 64px;
   line-height: 83px;
   color: #FFFFFF;
